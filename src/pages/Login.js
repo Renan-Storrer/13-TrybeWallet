@@ -47,6 +47,7 @@ class Login extends React.Component {
     return (
       <div className="divform">
         <form className="login" onSubmit={ this.submitEmail }>
+        <h1>LOGIN</h1>
           <input
             name="email"
             type="email"
