@@ -4,45 +4,45 @@
 }
 
 .divform {
+  align-items: center;
   background-color: rgb(113, 217, 221);
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
 }
 
 form.login {
   background-color: rgb(52, 106, 124);
   border: 25px solid rgb(119, 234, 238);
   border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
   height: 250px;
-  width: 400px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   margin-top: -10vh;
+  width: 400px;
 }
 
 .login input {
   border-radius: 15px;
-  margin-top: 5px;
-  margin: 10px;
   height: 35px;
+  margin: 10px;
+  margin-top: 5px;
 }
 
 .login button {
   background-color: rgba(1, 36, 45, 0.5);
   color: white;
   height: 50px;
-  width: 170px;
   margin: 0 auto;
   margin-top: 30px;
   transition-duration: 0.4s;
+  width: 170px;
 }
 
 .login button:hover {
   background-color: rgb(119, 234, 238);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  color: rgb(0, 0, 0);
+  color: black;
   cursor: pointer;
 }
