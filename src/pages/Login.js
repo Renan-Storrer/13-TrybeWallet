@@ -46,27 +46,27 @@ class Login extends React.Component {
     const { email, senha, btnDisable } = this.state;
     return (
       <div className="divform">
-        <form className="login" onSubmit={ this.submitEmail }>
-        <h1>LOGIN</h1>
+        <form className="login" onSubmit={this.submitEmail}>
+          <h1>LOGIN</h1>
           <input
             name="email"
             type="email"
             data-testid="email-input"
             placeholder="  digite seu e-mail"
-            value={ email }
-            onChange={ this.handleChange }
+            value={email}
+            onChange={this.handleChange}
           />
           <input
             name="senha"
             type="password"
             data-testid="password-input"
             placeholder="  digite sua senha"
-            value={ senha }
-            onChange={ this.handleChange }
+            value={senha}
+            onChange={this.handleChange}
           />
           <button
             type="submit"
-            disabled={ btnDisable }
+            disabled={btnDisable}
           >
             Entrar
           </button>
