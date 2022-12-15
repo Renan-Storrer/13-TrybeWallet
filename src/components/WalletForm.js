@@ -61,9 +61,10 @@ class WalletForm extends Component {
     const { value, description } = this.state;
     const { currencies, editor } = this.props;
     return (
-      <form>
+      <form className="walletform">
         Valor:
         <input
+          placeholder=" ex: 100,00"
           data-testid="value-input"
           name="value"
           value={ value }
@@ -73,6 +74,7 @@ class WalletForm extends Component {
         <input
           data-testid="description-input"
           name="description"
+          placeholder=" ex: comida"
           value={ description }
           onChange={ this.handleChange }
         />

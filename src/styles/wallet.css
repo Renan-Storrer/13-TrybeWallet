@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(113, 217, 221);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  margin-bottom: 2px;
+
+}
+
+.header div {
+
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+
+}
+
+.walletform {
+  align-content: space-around;
+  background-color: rgb(240, 242, 245);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 25px;
+}
+
+.walletform input {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.walletform select {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.walletform button {
+  background-color: rgba(1, 36, 45, 0.5);
+  border-radius: 15px;
+  color: white;
+  transition-duration: 0.4s;
+  width: 150px;
+}
+
+.walletform button:hover {
+  background-color: rgb(119, 234, 238);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  cursor: pointer;
+}
+
+.table {
+  align-items: center;
+  border-collapse: collapse;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  width: 100%;
+}
+
+.table td , .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child( even ) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  background-color: rgb(112, 214, 218);
+  color: black;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: left;
+}

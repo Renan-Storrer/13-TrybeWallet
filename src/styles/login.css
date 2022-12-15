@@ -5,13 +5,13 @@
 
 .divform {
   align-items: center;
-  background-color: rgb(113, 217, 221);
+  background-color: rgb(119, 234, 238);
   display: flex;
   height: 100vh;
   justify-content: center;
 }
 
-form.login {
+.login {
   background-color: rgb(52, 106, 124);
   border: 25px solid rgb(119, 234, 238);
   border-radius: 10px;

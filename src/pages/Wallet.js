@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import '../styles/walletform.css';
+
 // componentes
 import Header from '../components/Header';
 import Table from '../components/Table';

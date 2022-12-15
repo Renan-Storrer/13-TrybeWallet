@@ -17,12 +17,17 @@ class Header extends Component {
       field = '0.00';
     }
     return (
-      <div>
+      <div className="header">
         <p data-testid="email-field">{email}</p>
-        <p data-testid="total-field">
-          {field}
-        </p>
-        <p data-testid="header-currency-field">BRL</p>
+        <div>
+          <p>
+            TOTAL DE DESPESAS:
+          </p>
+          <p data-testid="total-field">
+            {field}
+          </p>
+          <p data-testid="header-currency-field">BRL</p>
+        </div>
       </div>
     );
   }
