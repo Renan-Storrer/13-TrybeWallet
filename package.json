@@ -19,6 +19,7 @@
     "react-uuid": "^2.0.0",
     "redux": "^4.2.0",
     "redux-thunk": "2.4.1",
+    "sass": "^1.56.2",
     "stylelint-order": "5.0.0"
   },
   "scripts": {
